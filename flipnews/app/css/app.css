@@ -103,6 +103,7 @@ ul li.selected a:hover {
   height: 225px;
   width: 80%;
   margin: 25px 0 25px 10%;
+  opacity: .8;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   background-position: center center;
   background-repeat: none;
@@ -110,16 +111,24 @@ ul li.selected a:hover {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;"
+
 }
 
 .news:hover{
-  border: 5px solid #09C;
+  /*border: 2px solid #09C;*/
+  opacity: 1.0;
+
+}
+
+.news:hover .news_title {
+    color: #09C;
 }
 
 
 .time_holder{
   margin-left: 5px;
   padding-top: 5px;
+  text-decoration:none;
 }
 
 .time_icon{
@@ -145,6 +154,7 @@ ul li.selected a:hover {
 .news_title{
   font-size: 0.65em;
   color: white;
+  text-decoration:none;
 }
 
 .news_title:hover{
