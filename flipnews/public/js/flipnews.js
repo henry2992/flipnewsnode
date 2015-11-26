@@ -3,7 +3,7 @@ function flipnews() {
 
 	function updateNews() {
 		var url = window.location.protocol + '//' + window.location.host;
-		var $newsRequest = $.getJSON(url + '/app/data', {format: 'json'});
+		var $newsRequest = $.getJSON(url + '/data', {format: 'json'});
 
 		$newsRequest.done(function(response) {
 			var news = response.news;
@@ -108,8 +108,6 @@ function flipnews() {
 	}
 
 	$('#updateNews').on('click', function() { updateNews(); });
-
-	updateNews();
 }
 
 $(document).ready(flipnews);
