@@ -36,11 +36,19 @@
 
 							<div id="sign_in_form">
 								<form action="login" method="post" id="loginForm">
-									<input class="text_input" type="text" name="email" placeholder="Email">
-									<br/>
-								  	<input class="text_input" type="password" name="password" placeholder="Password">
-									<br/>
-								  	<input class="sign_in_button" type="submit" value="Sign In">
+									<p>
+									  	<label ></label>
+										<input class="text_input" type="text" name="email" id="email" placeholder="Email">
+										<span class="span_style" id="span_style">Please Enter a valid email ID</span>
+									</p>
+									<p>
+									    <label ></label>
+										<input class="text_input" type="password" name="password_" id="password_" placeholder="Password">
+									  	<span class="span_style" id="span_style">Enter a password</span>
+									</p>
+									<p>
+										<input class="sign_in_button" type="submit" value="Sign In" name="submitButton" id="submitButton">
+									</p>
 								</form>
 								<% if (failMessage) { %>
 									<h1 class="error-message" style="text-align=center;"><%= failMessage %></h1>
