@@ -32,10 +32,10 @@
 						<p>Ready to Sign Up?</p>
 
 						<div id="sign_in_form">
-							<form action="app.html" method="get" >
+							<form action="signup" method="post" id="signUpForm">
 								<p>
 									<label ></label>
-									<input class="text_input" id="username" name="username" type="text" placeholder="Email ID">
+									<input class="text_input" id="email" name="email" type="text" placeholder="Email ID">
 									<span class="span_style">Please Enter a valid email ID</span>
 								</p>
 								<p>
@@ -52,6 +52,9 @@
 									<input class="sign_in_button" type="submit" value="Sign Up">
 								</p>
 							</form>
+							<% if (failMessage) { %>
+								<h1 class="error-message" style="text-align=center;"><%= failMessage %></h1>
+							<% } %>	
 						</div>
 					</div>
 				</div>

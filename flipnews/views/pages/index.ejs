@@ -35,13 +35,16 @@
 							</div><!-- end landing_content -->
 
 							<div id="sign_in_form">
-								<form action="app.html"  method="get" >
+								<form action="login" method="post" id="loginForm">
 									<input class="text_input" type="text" name="email" placeholder="Email">
 									<br/>
 								  	<input class="text_input" type="password" name="password" placeholder="Password">
 									<br/>
 								  	<input class="sign_in_button" type="submit" value="Sign In">
 								</form>
+								<% if (failMessage) { %>
+									<h1 class="error-message" style="text-align=center;"><%= failMessage %></h1>
+								<% } %>
 							</div>
 						</div>
 
@@ -99,5 +102,6 @@
 
 		<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
 		<script type="text/javascript" src="js/LoginValidations.js"></script>		
+		<script type="text/javascript">$(document).ready(function() { $('[name="email"]').focus() });</script>
 	</body>
 </html>
