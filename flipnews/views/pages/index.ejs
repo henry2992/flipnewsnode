@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>FlipNews | Discover the best news around you.</title>
+
+		<!-- CSS  -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+		<!-- FONTS -->
+		<link href='https://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+	</head>
+	
+	<body>
+		<%- include ../partial/message_div.ejs %>
+
+		<div id="wrapper">
+			<div id="inside-wrapper">
+				<div  id="landing_page">
+					<nav id="nav_bar">
+						<div id="logo_holder">
+							<a id="logo" class="link" href="index.html"> Flip<span class="logo_color">News</span> </a>
+						</div>
+						<a class="link" id="sing_in_div" href="signup.html"> Sign Up</a>
+					</nav>
+
+					<div id="content"> <!-- landing_content -->
+						<div id="container">
+							<div id="landing_content">
+								<h1>Discover the most important News of the day</h1>
+								<p>	A unique place to discover the most
+									important news of the day rated by the
+									people.
+								</p>
+							</div><!-- end landing_content -->
+
+							<div id="sign_in_form">
+								<form action="login" method="post" id="loginForm">
+									<p>
+									  	<label ></label>
+										<input class="text_input" type="text" name="email" id="email" placeholder="Email">
+										<span class="span_style" id="span_style">Please Enter a valid email ID</span>
+									</p>
+									<p>
+									    <label ></label>
+										<input class="text_input" type="password" name="password_" id="password_" placeholder="Password">
+									  	<span class="span_style" id="span_style">Enter a password</span>
+									</p>
+									<p>
+										<input class="sign_in_button" type="submit" value="Sign In" name="submitButton" id="submitButton">
+									</p>
+								</form>
+							</div>
+						</div>
+
+						<div class="phone_div hidden">
+							<img  src="images/4.png">
+						</div>
+
+					</div>
+				</div>
+
+				<div id="explanation_container">
+					<div class="app_explanation" >
+						<h2>The best Sources </h2>
+						<p> FlipNews gathers the news of the most important sources, then rates the news
+							and delivers it right to you. Now you can always know what everyone else is
+							talking about!
+						</p>
+					</div>
+					<div class="landing_img">
+						<img src="images/1.png">
+					</div>
+
+					<div class="app_explanation hidden_new ">
+						<h2>Join the Community</h2>
+						<p> Click <a href="SignUp.html">here</a> to sign up now! A valid email is required. </p>
+					</div>
+
+					<div class="landing_img">
+						<img src="images/2.png">
+					</div>
+
+					<div class="hidden_article ">
+						<h2>Join the Community</h2>
+						<p> Click <a href="SignUp.html">here</a> to sign up now! A valid email is required. </p>
+					</div>
+
+					<div class="app_explanation">
+						<h2>Linked with Twitter</h2>
+						<p>FlipNews finds the most popular news articles from verified
+						sources' Twitter handles so you can keep up to date with current events.</p>
+						</div>
+						<div class="landing_img">
+							<img src="images/3.png">
+						</div>
+				</div>
+
+				<footer>
+					<p class="rights"> Copyright © Flip<span class="logo_color">News</span>.com 2015. All rights reserved. </p>
+					<p><a class="link mailto" href="mailto:info@facenews.com">Contact Us</a> </p>
+					<img class="social_logos" src="images/fb.png" >
+					<img class="social_logos" src="images/tw.png">
+				</footer>
+			</div>
+		</div>
+
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="js/common.js"></script>
+		<script type="text/javascript" src="js/LoginValidation.js"></script>
+		<script type="text/javascript">$(document).ready(function() { $('[name="email"]').focus() });</script>
+	</body>
+</html>

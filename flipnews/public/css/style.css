@@ -1,0 +1,420 @@
+* {
+	margin:0;
+}
+html {
+	height: 100%;
+}
+body{
+  font-size: 18px;
+	margin: 0 !important;
+	padding: 0 !important;
+  font-family: 'Raleway', 'Helvetica Neue', Arial, sans-serif !important;
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.link{
+		text-decoration: none;
+}
+
+#wrapper{
+	min-height:100%;
+	position:relative;
+}
+#inside-wrapper{
+padding-bottom: 85px; 	/*This is fix footer to botton must be the same height*/
+}
+
+/************ Navigation Bar ***************/
+
+#nav_bar{
+	height: 40px;
+	line-height: 38px;
+	background-color: rgba(255, 255, 255, 0);
+}
+
+#logo_holder{
+	display: inline-block;
+	margin-top: 10px;
+}
+
+#sing_in_div{
+	display: inline-block;
+	float: right;
+	margin-right: 30px;
+	margin-top: 10px;
+	background-color: rgba(255, 255, 255, 0.1);
+	color: white;
+	padding: 0px 15px;
+	line-height: 38px;
+	border: 1px solid #fff;
+	font-size: 0.8em;
+	border-radius: 15px;
+	color: white;
+}
+
+
+
+#sing_in_div:hover{
+	background-color: #fff;
+	color: #000;
+	border: 1px solid #E6E6E6;
+}
+
+#logo{
+
+	color: #E6E6E6;
+	font-size: 1.5em;
+	margin-left: 20px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+.logo_color{
+	color: #09C;
+}
+
+/*********** Landing Page content **************/
+
+#landing_page{
+	width: 100vw;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/bg1.jpeg);
+  background-position: center center;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  color: white;
+}
+
+#landing_page h1{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 2em;
+	text-align: center;
+	padding: 10px 10% 25px 10% !important;
+  margin-top: 25px!important;
+}
+
+#landing_page p {
+	padding: 0px 5% 15px 5% !important;
+	text-align: center;
+}
+
+.app_explanation {
+  color: #09C;
+  opacity: 0.8;
+  border: 1px #09C solid;
+  margin: 25px 10% 25px 10%;
+}
+
+.app_explanation h2{
+text-transform: uppercase;
+font-weight: 700;
+font-size: 1.5em;
+text-align: center;
+padding: 10px 10% 25px 10% !important;
+}
+
+.app_explanation p {
+  color: black;
+	padding: 0px 5% 15px 5% !important;
+	text-align: center;
+}
+
+.landing_img{
+  margin: 25px 10% 25px 10%;
+  text-align: center;
+}
+
+.landing_img img{
+  width: 100%;
+}
+/*********** Landing Page for Sing Up **************/
+
+#sign_up_page{
+	width: 100vw;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/bg2.jpeg);
+  background-position: center center;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  color: white;
+	height: 700px;
+}
+
+#landing_content h1{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1.7em;
+	text-align: center;
+	padding: 10px 10% 25px 10% !important;
+  margin-top: 25px!important;
+}
+
+#landing_content p {
+	padding: 0px 5% 15px 5% !important;
+	text-align: center;
+}
+#landing_content h2{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1.3em;
+	text-align: center;
+	padding: 10px 10% 25px 10% !important;
+  margin-top: 25px!important;
+}
+
+#about{
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+#about p{
+	padding: 0px 5% 15px 5% ;
+	border: 5px solid #09c;
+	display: inline-block;
+	width: 250px;
+
+
+
+
+}
+
+/**************************validation*******************/
+
+label {
+  display: block;
+  font-size: 1em;
+  margin: 0 0 .5em;
+  position:realtive;
+  right:20%;
+}
+
+
+
+.span_style {
+  border-radius: 5px;  
+  font-size: 0.8em;
+  text-align: center;
+  position: relative;
+  top: 5px;
+  display: block;  
+  width: 200px;
+  padding: 7px 10px;
+  color: white;
+  font-weight:bold;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+
+/********** Sign In and Sign Up Form *************/
+
+#sign_in_form{
+	text-align: center;
+	margin-right: 10%;
+	margin-left: 10%;
+	width: 80%;
+
+}
+
+.text_input{
+	margin: 0px;
+	height: 30px;
+	font-size: 0.667em;
+	border: 1px solid #E6E6E6;
+	width: 80%;
+
+}
+
+.sign_in_button{
+	width: 80%;
+	margin: 15px 0 15px 1px;
+	height: 50px;
+	border-radius: 0px;
+	background-color: #09C;
+	color: #FFF;
+	border: medium none;
+	font-size: 0.667em;
+}
+
+
+
+
+/*************  Footer *************/
+footer{
+  background-color: rgb(68, 68, 68);
+  height: 85px;
+  border-top: 1px solid #09C;
+  color:white;
+	position:absolute;
+	bottom:0px;
+	left:0;
+	width: 100%;
+	text-align: center;
+}
+footer p{
+	font-size: 0.6em;
+}
+
+
+.mailto {
+	color: white;
+	font-size: 1em;
+}
+
+.social_logos{
+  width: 35px;
+	background-color: white;
+	border-radius: 50%;
+	margin-top: 5px;
+}
+
+
+
+
+/*hidden articles*/
+.hidden{
+  display: none;
+}
+
+.hidden_article{
+  display: none;
+}
+
+/********************** MEDIA QUERIES ******************/
+
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+
+}
+
+
+/* Tablets (portrait and landscape) ----------- */
+@media only screen and (min-width : 768px) {
+
+
+  #landing_page h1{
+  	font-size: 2.2em;
+  	padding: 10px 10% 25px 10% !important;
+    margin-top: 100px!important;
+  }
+
+  .text_input{
+  	width: 50%;
+  }
+
+  .sign_in_button{
+  	width: 50%;
+  }
+
+  #explanation_container{
+    text-align: center;
+  }
+
+  .app_explanation{
+    display: inline-block;
+    width: 300px;
+    margin: 25px 5%;
+    vertical-align: top;
+  }
+
+
+  .landing_img{
+    display: inline-block;
+    width: 300px;
+    margin: 25px 5%;
+    vertical-align: top;
+  }
+  .hidden_new{
+    display: none !important;
+  }
+
+  .hidden_article {
+    display: inline-block;
+    width: 300px;
+    margin: 150px 5% 0 5%;
+    vertical-align: top;
+    color: #09C;
+    opacity: 0.8;
+    border: 1px #09C solid;
+  }
+
+
+  .hidden_article h2{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.5em;
+  text-align: center;
+  padding: 10px 10% 25px 10% !important;
+  }
+
+  .hidden_article p {
+    color: black;
+  	padding: 0px 5% 15px 5% !important;
+  	text-align: center;
+  }
+
+	footer p{
+		font-size: 0.8em;
+	}
+
+	#sign_up_page{
+		height: 100vh;
+	}
+}
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 980px) {
+
+
+
+  #landing_content h1{
+  	font-size: 2.2em;
+    margin-top: 10px!important;
+
+  }
+
+  #content{
+    max-width: 100%;
+    margin-top: 10px !important;
+    overflow: hidden;
+  }
+
+
+  #container{
+    display: inline-block;
+    width: 75%;
+    vertical-align: top;
+  }
+
+
+  .phone_div {
+      display: inline-block;
+    }
+
+  .phone_div img{
+    width: 200px;
+    height: 400px;
+  }
+
+}
+
+.message_container {
+  display: none;
+  background-color: white;
+  padding: 10px;
+  z-index: 1;
+  color: red;
+  position: fixed;
+  top: 1em;
+  right: 1em;
+}
