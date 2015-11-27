@@ -3,7 +3,7 @@ var User = require('../model/user');
 var bCrypt = require('bcrypt-nodejs');
 
 module.exports = function(passport) {
-	passport.use('signup', new LocalStrategy({ passReqToCallback: true, usernameField: 'email' },
+	passport.use('signup', new LocalStrategy({ passReqToCallback: true, usernameField: 'email', passwordField: 'password_' },
         function(req, email, password, done) {
             findOrCreateUser = function() {
                 User.findOne({ 'email': email }, function(err, user) {
