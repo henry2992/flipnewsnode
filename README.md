@@ -1,7 +1,7 @@
 # flipnewsnode
 Flip News!
 
-## How to run
+## How to run (linux instructions)
 
   Pre-requirement: MongoDB must be installed and running.
   
