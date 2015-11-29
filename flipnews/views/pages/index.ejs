@@ -14,7 +14,7 @@
 	</head>
 	
 	<body>
-		<%- include ../partial/message_div.ejs %>
+		
 
 		<div id="wrapper">
 			<div id="inside-wrapper">
@@ -37,11 +37,13 @@
 							</div><!-- end landing_content -->
 
 							<div id="sign_in_form">
+								<%- include ../partial/message_div.ejs %>
 								<form action="login" method="post" id="loginForm">
 									<p>
 									  	<label ></label>
 										<input class="text_input" type="text" name="email" id="email" placeholder="Email">
 										<span class="span_style" id="span_style">Please Enter a valid email ID</span>
+
 									</p>
 									<p>
 									    <label ></label>
