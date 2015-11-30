@@ -410,11 +410,8 @@ footer p{
 
 .message_container {
   display: none;
-  background-color: white;
+  background-color: transparent;
   padding: 10px;
   z-index: 1;
   color: red;
-  position: fixed;
-  top: 1em;
-  right: 1em;
 }

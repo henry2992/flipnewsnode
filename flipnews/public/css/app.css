@@ -110,7 +110,10 @@ ul li.selected a:hover {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;"
+}
 
+.news a {
+  text-decoration: none;
 }
 
 .news:hover{
