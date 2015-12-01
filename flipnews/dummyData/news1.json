@@ -1,6 +1,17 @@
 {
-	"news": 
+	"news":
 	[{
+		"time": "9 hours ago",
+		"title": "Want the latest on Syria, Israel and tonight's Debate? Your Evening Briefing is ready.",
+		"image": "#url/images/news1.png",
+		"url": "http://www.nytimes.com/2015/10/13/nytnow/your-tuesday-evening-briefingsyria-hillary-rodham-clinton-and-israel.html?smid=tw-share&_r=0",
+		"likes": "352",
+		"source": {
+			"image": "#url/images/tnt.png",
+			"name": "@nytimes"
+		}
+	},
+	{
 		"time": "1 hour ago",
 		"title": "Monday's MLB playoffs turned into a longball show, with the Cubs as the main attraction.",
 		"image": "http://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2015%2F1012%2Fr16553_1296x1296_1%2D1.jpg&w=156&h=156&scale=crop&cquality=90&location=center",
@@ -12,17 +23,26 @@
 		}
 	},
 	{
+<<<<<<< HEAD
 		"time": "5 hours ago",
 		"title": "Not enough six-win teams; multiple five-win teams needed to fill bowls.",
 		"image": "'http://a.espncdn.com/combiner/i?img=%2Fphoto%2F2015%2F1105%2Fr23272_1296x729_16%2D9.jpg&w=1140'",
 		"url": "http://espn.go.com/mlb/story/_/id/13876465/2015-mlb-playoffs-one-day-postseason-record-21-home-runs-shatters-previous-mark?ex_cid=espnTW",
 		"likes": "329",
+=======
+		"time": "12 hours ago",
+		"title": "Taylor Swift will co-host the 2016 Met Gala. Can't wait to see what she'll don for its theme.",
+		"image": "#url/images/news3.png",
+		"url": "http://www.eonline.com/news/706170/taylor-swift-set-to-co-host-the-2016-met-gala-plus-find-out-the-surprising-theme",
+		"likes": "289",
+>>>>>>> d9f6397ee91a9abc5adbd47a847f90abaa573974
 		"source": {
-			"image": "#url/images/espn.png",
-			"name": "@espn"
+			"image": "#url/images/eonline.png",
+			"name": "@eonline"
 		}
 	},
 	{
+<<<<<<< HEAD
 		"time": "8 hours ago",
 		"title": "Kevin Durant frustrated by media's handling of Kobe Bryant.",
 		"image": "https://pbs.twimg.com/media/CVGfCkMWwAErWOC.jpg",
@@ -39,11 +59,19 @@
 		"image": "https://espnfivethirtyeight.files.wordpress.com/2015/11/gettyimages-104445268.jpg?w=610",
 		"url": "http://fivethirtyeight.com/features/an-ode-to-kobe-bryant-in-two-charts/?ex_cid=espntw",
 		"likes": "234",
+=======
+		"time": "18 hours ago",
+		"title": "What to expect from tonight's #DemDebate.",
+		"image": "#url/images/news4.png",
+		"url": "http://www.bbc.com/news/world-us-canada-34519331?ocid=socialflow_twitter",
+		"likes": "254",
+>>>>>>> d9f6397ee91a9abc5adbd47a847f90abaa573974
 		"source": {
-			"image": "#url/images/espn.png",
-			"name": "@espn"
+			"image": "#url/images/bbc.png",
+			"name": "@BBCWorld"
 		}
 	},
+<<<<<<< HEAD
 	{
 		"time": "16 hours ago",
 		"title": "Tyson Fury calls Wladimir Klitschko's camp cheats, feared he'd be drugged after fight.",
@@ -305,3 +333,127 @@
 
 	]
 }
+=======
+		{
+			"time": "4 hours ago",
+			"title": "Guatemala ends search for victims of landslide that killed 280.",
+			"image": "#url/images/news5.png",
+			"url": "http://www.foxnews.com/world/2015/10/13/guatemala-ends-search-for-victims-landslide-that-killed-280/",
+			"likes": "237",
+			"source": {
+				"image": "#url/images/fox.png",
+				"name": "@FoxNews"
+			}
+		},
+		{
+			"time": "10 hours ago",
+			"title": "Marlon James, Jamaican Novelist, Wins Man Booker Prize",
+			"image": "#url/images/news6.png",
+			"url": "http://www.nytimes.com/2015/10/14/world/americas/marlon-james-jamaican-novelist-wins-man-booker-prize.html",
+			"likes": "222",
+			"source": {
+				"image": "#url/images/tnt.png",
+				"name": "@nytimes"
+			}
+		},
+		{
+					"time": "13 hours ago",
+					"title": "Week 6 NFL Power Rankings: 1. @Patriots 2. @Packers 3. @AtlantaFalcons 4. @Broncos.",
+					"image": "#url/images/news7.png",
+					"url": "http://espn.go.com/nfl/powerrankings/_/year/2015/week/6?ex_cid=espnTW",
+					"likes": "222",
+					"source": {
+						"image": "#url/images/espn.png",
+						"name": "@ESPN"
+					}
+		},
+		{
+					"time": "3 hours ago",
+					"title": "Jupiter's Great Red Spot is bigger than 3 Earths. Now you can see it in ultra-high definition.",
+					"image": "#url/images/news8.png",
+					"url": "http://www.bbc.com/news/science-environment-31760525?ocid=socialflow_twitter",
+					"likes": "165",
+					"source": {
+							"image": "#url/images/bbc.png",
+							"name": "@BBCWorld"
+							}
+			},
+			{
+						"time": "16 hours ago",
+						"title": "This new Facebook feature is about to make the site VERY dangerous, in the best way.",
+						"image": "#url/images/news9.png",
+						"url": "http://www.eonline.com/news/706146/this-new-facebook-feature-will-make-the-site-very-dangerous-in-a-good-way",
+						"likes": "152",
+						"source": {
+								"image": "#url/images/eonline.png",
+								"name": "@eonline"
+								}
+				},
+				{
+							"time": "21 hours ago",
+							"title": "Aunt loses $127,000 suit against 8-year-old nephew who jumped into her arms",
+							"image": "#url/images/news10.png",
+							"url": "http://www.foxnews.com/us/2015/10/13/woman-sues-nephew-says-his-exuberant-greeting-led-to-fall/",
+							"likes": "129",
+							"source": {
+									"image": "#url/images/fox.png",
+									"name": "@FoxNews"
+									}
+					},
+					{
+								"time": "1 hour ago",
+								"title": "What you need to know about 3D Touch on your iPhone 6S.",
+								"image": "#url/images/news11.png",
+								"url": "http://www.forbes.com/sites/anthonykarcz/2015/10/13/master-or-disable-3d-touch/?utm_campaign=Forbes&utm_source=TWITTER&utm_medium=social&utm_channel=Technology&linkId=17906936",
+								"likes": "111",
+								"source": {
+										"image": "#url/images/forbes.png",
+										"name": "@Forbes"
+										}
+						},
+						{
+									"time": "16 hours ago",
+									"title": "Why Russia's alternate history of Malaysia Airlines Flight 17 matters",
+									"image": "#url/images/news12.png",
+									"url": "http://www.nytimes.com/2015/10/13/magazine/why-russias-alternate-history-of-malaysia-airlines-flight-17-matters.html?_r=0",
+									"likes": "89",
+									"source": {
+											"image": "#url/images/tnt.png",
+											"name": "@nytimes"
+											}
+							},
+							{
+										"time": "14 hours ago",
+										"title": "How Jennifer Lawrence reacted when she discovered she was paid less than her male co-stars.",
+										"image": "#url/images/news13.png",
+										"url": "http://www.bbc.co.uk/newsbeat/article/34516256/jennifer-lawrence-talks-about-the-gender-pay-gap-for-the-first-time",
+										"likes": "56",
+										"source": {
+												"image": "#url/images/bbc.png",
+												"name": "@BBCWorld"
+												}
+								},
+								{
+											"time": "4 hours ago",
+											"title": "New ISIS audio message targets Americans, Russians.",
+											"image": "#url/images/news14.png",
+											"url": "http://www.foxnews.com/world/2015/10/13/new-isis-audio-message-targets-americans-russians/",
+											"likes": "31",
+											"source": {
+													"image": "#url/images/fox.png",
+													"name": "@FoxNews"
+													}
+									},
+									{
+												"time": "7 hours ago",
+												"title": "What you see is what you get with Bernie Sanders",
+												"image": "#url/images/news15.png",
+												"url": "http://www.forbes.com/sites/johnzogby/2015/10/12/the-democratic-debate-the-stakes/?utm_campaign=Forbes&utm_source=TWITTER&utm_medium=social&utm_channel=Opinion&linkId=17910743/",
+												"likes": "18",
+												"source": {
+														"image": "#url/images/forbes.png",
+														"name": "@Forbes"
+														}
+										}]
+}
+>>>>>>> d9f6397ee91a9abc5adbd47a847f90abaa573974
