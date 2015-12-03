@@ -88,9 +88,11 @@ ul li.selected a {
 }
 ul li.selected:hover {
   background: #09C;
+  cursor: pointer;
 }
 ul li.selected a:hover {
   color:white;
+  cursor: pointer;
 }
 
 
